@@ -937,7 +937,7 @@ body {
       background-color: var(--white-color);
       overflow-y: scroll;
       height: 90vh;
-      max-width: 105.645rem;
+      width: 105.645rem;
 
       .text-faqs {
         display: flex;
@@ -953,6 +953,7 @@ body {
           align-items: center;
           padding-left: 2rem;
           padding-right: 2rem;
+          cursor: pointer;
 
           .clients {
             padding: 1.5rem;
@@ -965,8 +966,8 @@ body {
           }
         }
         .payments {
-          margin-bottom: 5rem;
-          padding: 5rem;
+          margin-bottom: 1rem;
+          padding: 3rem;
           @media only screen and (max-width: 60em) {
             padding: 2rem;
           }
@@ -983,7 +984,6 @@ body {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 2rem;
             font-size: 2rem;
             font-weight: bold;
           }
@@ -1045,5 +1045,37 @@ body {
         }
       }
     }
+  }
+}
+
+.Q-section {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  .q {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    span {
+      margin-left: auto;
+      cursor: pointer;
+    }
+  }
+
+  .a {
+    margin-bottom: 3rem;
+    display: none;
+    font-size: 1.6rem;
+  }
+}
+
+.active {
+  background-color: var(--bg-color);
+  padding: 1rem;
+
+  .a {
+    display: block;
   }
 }

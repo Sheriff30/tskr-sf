@@ -103,3 +103,18 @@ mobBtns.forEach((e) => {
     menu.classList.add("hide");
   });
 });
+
+const Qsection = document.querySelectorAll(".Q-section");
+const showIcon = document.querySelector(".show-q-icon");
+
+Qsection.forEach((q) => {
+  q.addEventListener("click", function (e) {
+    this.classList.toggle("active");
+
+    this.classList.contains("active")
+      ? (document.querySelector(`.show-q-icon-${this.dataset.icon}`).src =
+          "min.svg")
+      : (document.querySelector(`.show-q-icon-${this.dataset.icon}`).src =
+          "plus.svg");
+  });
+});
