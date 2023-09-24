@@ -118,3 +118,25 @@ Qsection.forEach((q) => {
           "plus.svg");
   });
 });
+
+const faqHead = document.querySelectorAll(".faq-head");
+
+const for2 = document.querySelector(".for");
+
+for2.addEventListener("click", function (e) {
+  if (e.target.dataset.head === "1") {
+    e.target.classList.add("activeH");
+    document.querySelectorAll('[data-head="2"]')[0].classList.remove("activeH");
+    document.querySelectorAll('[data-head="3"]')[0].classList.remove("activeH");
+  }
+  if (e.target.dataset.head === "2") {
+    e.target.classList.add("activeH");
+    document.querySelectorAll('[data-head="1"]')[0].classList.remove("activeH");
+    document.querySelectorAll('[data-head="3"]')[0].classList.remove("activeH");
+  }
+  if (e.target.dataset.head === "3") {
+    e.target.classList.add("activeH");
+    document.querySelectorAll('[data-head="2"]')[0].classList.remove("activeH");
+    document.querySelectorAll('[data-head="1"]')[0].classList.remove("activeH");
+  }
+});

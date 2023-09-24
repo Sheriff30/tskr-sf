@@ -954,9 +954,10 @@ body {
           padding-left: 2rem;
           padding-right: 2rem;
           cursor: pointer;
+          height: 5rem;
 
-          .clients {
-            padding: 1.5rem;
+          .activeH {
+            height: 100%;
             width: 14rem;
             background-color: var(--white-color);
             border-radius: 60px;
@@ -1057,6 +1058,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+    font-weight: bold;
 
     span {
       margin-left: auto;
@@ -1072,7 +1074,7 @@ body {
 }
 
 .active {
-  background-color: var(--bg-color);
+  background-color: var(--faq-color);
   padding: 1rem;
 
   .a {
