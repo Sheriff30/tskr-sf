@@ -178,6 +178,7 @@ body {
 }
 .main .content .btns .btn1 {
   background-color: var(--white-color);
+  color: #222222;
 }
 .main .content .btns .btn2 {
   background-color: #5bbb7b;
@@ -327,7 +328,7 @@ body {
 }
 @media only screen and (max-width: 60em) {
   .pre-register-pop .notified .email input {
-    width: 45%;
+    width: 35%;
   }
 }
 .pre-register-pop .notified .email input::-moz-placeholder {
@@ -343,6 +344,7 @@ body {
   background-color: var(--bg-color);
   font-size: 1.772rem;
   cursor: pointer;
+  color: #222222;
 }
 .pre-register-pop .register-content {
   padding-left: 5.6rem;

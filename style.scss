@@ -177,6 +177,7 @@ body {
       }
       .btn1 {
         background-color: var(--white-color);
+        color: #222222;
       }
       .btn2 {
         background-color: #5bbb7b;
@@ -323,7 +324,7 @@ body {
         padding: 2.3rem;
         outline: none;
         @media only screen and (max-width: 60em) {
-          width: 45%;
+          width: 35%;
         }
         &::placeholder {
           color: var(--palce-holder);
@@ -337,6 +338,7 @@ body {
         background-color: var(--bg-color);
         font-size: 1.772rem;
         cursor: pointer;
+        color: #222222;
       }
     }
   }
