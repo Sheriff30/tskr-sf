@@ -966,9 +966,10 @@ body {
   padding-right: 2rem;
   cursor: pointer;
   height: 5rem;
+  font-weight: 400;
 }
 .faqs .faqsSection .faqs-content .text-faqs .for .activeH {
-  height: 100%;
+  height: 80%;
   width: 14rem;
   background-color: var(--white-color);
   border-radius: 60px;
@@ -978,7 +979,7 @@ body {
 }
 .faqs .faqsSection .faqs-content .text-faqs .payments {
   margin-bottom: 1rem;
-  padding: 3rem;
+  padding: 5rem;
 }
 @media only screen and (max-width: 60em) {
   .faqs .faqsSection .faqs-content .text-faqs .payments {
@@ -993,7 +994,7 @@ body {
 .faqs .faqsSection .faqs-content .text-faqs .payments .head {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .faqs .faqsSection .faqs-content .text-faqs .payments .question {
   display: flex;
@@ -1057,17 +1058,19 @@ body {
   cursor: pointer;
 }
 .Q-section .q {
+  padding: 2rem;
   font-size: 2rem;
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 .Q-section .q span {
   margin-left: auto;
   cursor: pointer;
 }
 .Q-section .a {
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-bottom: 3rem;
   display: none;
   font-size: 1.6rem;
@@ -1075,7 +1078,6 @@ body {
 
 .active {
   background-color: var(--faq-color);
-  padding: 1rem;
 }
 .active .a {
   display: block;
