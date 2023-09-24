@@ -132,7 +132,7 @@ body {
 }
 @media only screen and (max-width: 60em) {
   .main .content {
-    padding: 4rem;
+    padding: 8rem;
   }
 }
 .main .content .p1 {
