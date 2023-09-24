@@ -1052,10 +1052,10 @@ body {
 
 .Q-section {
   padding: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   cursor: pointer;
   .q {
-    padding: 2rem;
+    padding-left: 2rem;
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -1070,7 +1070,7 @@ body {
   .a {
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     display: none;
     font-size: 1.6rem;
   }
@@ -1078,6 +1078,10 @@ body {
 
 .active {
   background-color: var(--faq-color);
+
+  .q {
+    padding: 2rem;
+  }
 
   .a {
     display: block;
